@@ -1,6 +1,6 @@
 package equipments.internet;
 
-public abstract interface NavegadorInternet {
+public interface NavegadorInternet {
     public void exibirPagina(String url);
 
 }
