@@ -1,10 +1,16 @@
 # Desafio Iphone POO
+
+![Arquivo UML do Projeto](src/uml.png)
+
 ## Esse projeto faz parte do Desafio de POO - Progamação Orientada Objeto do Formação Java da DIO.me
 
-O desafio lançado consiste em assitir a uma palestra do lançamento do IPHONE em 2007 com Steve Jobs. Depois construir uma aplicação em java com pacotes e classes de três produtos Ipod, NavegadorInternet e Telefone, cujas funções foram englobadas por um único aparelho em lançamento naquela ocasião, o Iphone.
+O desafio lançado consiste em assitir a uma palestra do lançamento do IPHONE em 2007 com Steve Jobs. Depois construir uma aplicação em java com pacotes e classes de três produtos Ipod, NavegadorInternet e Telefone, cujas funções foram englobadas por um único aparelho em lançamento naquela ocasião, o Iphone. Paéis distintos dentro de um aparelho só.
 
 ### como fiz:
-Primeiramente, criei os pacotes para conter os aparelhos por função "equipments" > "music", "internet", "telefone".
+Primeiramente, criei os pacotes para conter os aparelhos por função "equipments" > <br>
+".music", <br>
+".internet", <br>
+".telefone".
 
 Dentro desses pacotes, coloquei contratos chamados Interfaces, cujo conteúdo consiste em funções anônimas genéricas de cada aparelho: NavegadorInternet, ReprodutorMusical e AparelhoTelefonico. Coloquei uma função que cada aparelho é capaz de fazer só para testar a lógica.
 
